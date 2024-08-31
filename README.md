@@ -4,7 +4,7 @@ Why should CSS only be for styling?
 
 ## What is CSS?
 
-CSS is a Server Sheet language that allows you to declaritively define your server routes and behaviors. Modelled after the Cascading _Style_ Sheets syntax (_so we don't need our own parsers and formatters!_), and inspired by the absolute genious of [Corset's](https://corset.dev) Cascading _Binding_ Sheets (_Why put CSS in JS, when you can put JS in CSS?_), CSS provides a simple and intuitive way to define your server's behavior.
+CSS is a Server Sheet language that allows you to declaratively define your server routes and behaviors. Modelled after the Cascading _Style_ Sheets syntax (_so we don't need our own parsers and formatters!_), and inspired by the absolute genius of [Corset's](https://corset.dev) Cascading _Binding_ Sheets (_Why put CSS in JS, when you can put JS in CSS?_), CSS provides a simple and intuitive way to define your server's behavior.
 
 ## Housekeeping
 
