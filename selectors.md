@@ -28,7 +28,7 @@ api {
 
 This will return a 200 status code with the body "Welcome" when a request is made on the `/api` path.
 
-> The above will select any request whose final path segment is `api`. To select requests that have a specific path segment at a specific position, use the `child combinator`.
+> The above will select any request that contains a path segment of `api`. To select requests that have a specific path segment at a specific position, use the `child combinator`.
 
 ## Method Selectors (`#`)
 
@@ -74,9 +74,9 @@ posts {
 }
 ```
 
-This defines a static `GET` route (`GET /posts`) and broader (`POST /posts/**/*`). You'll notice the `/**/*` is is implied. This would be similar to defining a selector of `posts #post`. This would select all `POST` requests to any route deaper than `/posts` but not `POST` requests to `/posts` itself.
+This defines a static `GET` route (`GET /posts`) and broader (`POST /posts/**/*`). You'll notice the `/**/*` is is implied. This would be similar to defining a selector of `posts #post`. This would select all `POST` requests to any route deeper than `/posts` but not `POST` requests to `/posts` itself.
 
-If you want it to select `POST` requests on `/posts` only, you'd want to explicitely structure the nesting with `&`
+If you want it to select `POST` requests on `/posts` only, you'd want to explicitly structure the nesting with `&`
 
 ```css
 posts {
