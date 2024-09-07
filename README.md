@@ -56,7 +56,7 @@ blog {
 Deeper routes? Just use child selectors (` `)!
 
 ```css
-blog my-first-post {
+blog > my-first-post {
   status: 201;
   render: 'My First Post!';
 }
@@ -65,7 +65,7 @@ blog my-first-post {
 Dynamic routes? Just use the Attribute Selector! And access the value with the `attr()` function!
 
 ```css
-blog [post-id] {
+blog > [post-id] {
   status: 200;
   render: 'Post ' + attr(post-id);
 }
