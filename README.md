@@ -35,7 +35,7 @@ CSS is simple and intuitive! Just define your routes and behaviors in a CSS file
 
 That's a simple server that listens on port 8080, and returns a 200 status code with the body "Hello, World!".
 
-Want to handle different methods? Just use an ID selector (`#`)!
+Want to handle different methods? Just use an [ID selector](selectors.md) (`#`)!
 
 ```css
 :root#post {
@@ -53,7 +53,7 @@ blog {
 }
 ```
 
-Deeper routes? Just use child selectors (` `)!
+Deeper routes? Just use the [child combinator](combinators.md) (`>`)!
 
 ```css
 blog > my-first-post {
